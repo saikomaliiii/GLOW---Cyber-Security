@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: 'JetBrains Mono', monospace;
+}
+.cyber-card {
+  background: linear-gradient(145deg,#020617,#020617cc);
+  border: 1px solid rgba(34,211,238,0.3);
+  box-shadow: 0 0 25px rgba(34,211,238,0.15);
+}
+
+.cyber-title {
+  text-shadow: 0 0 15px rgba(34,211,238,0.8);
+  letter-spacing: 2px;
+}
+
+.cyber-box {
+  background: rgba(2,6,23,0.8);
+  border-left: 3px solid #22d3ee;
+  padding: 14px;
+}
+
